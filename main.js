@@ -1,5 +1,6 @@
 import './style.css'
 import './src/hello'
+import './src/homework'
 
 document.querySelector('#app').innerHTML = `
   <div>
