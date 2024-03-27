@@ -1,0 +1,3 @@
+.gitignore -> este archivo se encarga de que los archivos mencionados en el, no se llegue a subir a la repo.
+package.json -> archivo que da información sobre el proyecto, así como las dependencias y scripts que tengamos.
+style.css -> archivo para dar estilos al html.

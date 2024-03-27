@@ -11,8 +11,11 @@
   /*Resultado esperado: [5, 10, 15, 20, 25] */
 
   /* First excercise */
+  const resultado = numbers.map(numero => numero * 5);
+
 
   /* Second excercise */
+  console.log(resultado);
 
   let names = ["Jhosep", "Daniel", "Rodrigo", "Veronica"];
 
@@ -21,8 +24,10 @@
   /* Resultado esperado: ["Daniel", "Jhosep", "Rodrigo", "Veronica"] */
 
   /* Second excercise */
+  const nombresOrdenados = names.sort();
 
   /* Thrid excercise */
+  console.log(nombresOrdenados);
 
   const data = ['a', 'b', 'z', 'r', 'a', 'c', 'r', 'a'];
 
@@ -30,8 +35,10 @@
   /* Resultado esperado: ['a', 'b', 'z', 'r', 'c'] */
 
   /* Thrid excercise */
+  const letrasUnicas = Array.from(new Set(data));
 
   /* Fourth excercise */
+  console.log(letrasUnicas);
 
   const largeWord = "abcdabcdABCD";
 
@@ -50,5 +57,13 @@
   */
 
   /* Fourth excercise */
+const frecuenciaLetras = {};
+
+for (let letra of texto) {
+    frecuenciaLetras[letra] = (frecuenciaLetras[letra] || 0) + 1;
+}
+for (let letra in frecuenciaLetras) {
+    console.log(`"${letra}" :${frecuenciaLetras[letra]}`);
+}
 
 })();

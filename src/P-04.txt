@@ -1,0 +1,5 @@
+-Las "arrow functions" (o funciones flecha) son una forma más concisa de escribir funciones en JavaScript. 
+Son especialmente útiles cuando necesitas escribir funciones cortas y anónimas. 
+En lugar de la palabra clave function, se utilizan flechas => para definir la función.
+-Los callbacks son funciones que se pasan como argumentos a otras funciones y se ejecutan dentro de esas funciones. 
+Son útiles para manejar tareas asíncronas o eventos en JavaScript.
